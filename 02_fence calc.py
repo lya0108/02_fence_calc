@@ -35,12 +35,15 @@ while looping == "":
     perimeter = 2*(width + length)
     cost = perimeter*cost_per_meter
 
-    print("Perimeter: {:.2f} units".format(perimeter))
-    print("Cost: {:.2f} square units".format(cost))
+    print("the perimeter = {:.2f} m".format(perimeter))
+    print("the cost of fencing = ${:.2f}".format(cost))
     print()
 
 
     looping = input("press <enter> to continue or any key to quit")
+    print()
+    print("-" * 30)
+    print()
 
-print()
 print("thank you for using the Fence Calculator")
+print()
